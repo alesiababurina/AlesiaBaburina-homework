@@ -1,10 +1,8 @@
-public class OutputOfNumbersChange {
+public class OutputNumbChange {
     public static void main(String[] args) {
-	int N = 1;
-        for (int i = 1; i <= 100; i++) {
+        for (int i = 0; i <= 100; i++) {
             if (i % 3 == 0) {
-                System.out.print(" 3*" + N);
-		N++;
+                System.out.print(" 3*" + i/3);
             } else
                 System.out.print(" " + i);
 
